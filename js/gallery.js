@@ -1,3 +1,6 @@
+//SOURCE: W3Schools, n.d. How TO - Portfolio Gallery with Filtering. Available at: <https://www.w3schools.com/howto/howto_js_portfolio_filter.asp> 
+
+
 filterSelection("all") // Execute the function and show all categories
 function filterSelection(c) {
   var x, i;

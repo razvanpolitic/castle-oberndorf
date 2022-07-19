@@ -1,3 +1,5 @@
+//Jonas Schmedtmann, 2022. Advanced CSS and Sass: Flexbox, Grid, Animations and More! [Udemy Course], Available at: <https://www.udemy.com/course/advanced-css-and-sass/> 
+
 var acc = document.getElementsByClassName("accordeon-animated-button");
 var i;
 
