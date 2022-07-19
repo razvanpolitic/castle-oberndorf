@@ -1,4 +1,4 @@
-filterSelection("all") // Execute the function and show all categorys
+filterSelection("all") // Execute the function and show all categories
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("category");
@@ -35,7 +35,7 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-// Add active class to the current button (highlight it)
+// Add active class to the current button 
 var buttonContainer = document.getElementById("categories");
 var buttons = buttonContainer.getElementsByClassName("gallery-button");
 for (var i = 0; i < buttons.length; i++) {

@@ -1,8 +1,4 @@
-// Web Component - HEADER TEMPLATE
-
 (function () {
-
-  // Insert a component template with content and styling
   const TEMPLATE = document.createElement("template");
   const TEMPLATECONTENT = `
   <style>
@@ -391,21 +387,14 @@
         `;
   TEMPLATE.innerHTML = TEMPLATECONTENT;
 
-  // Defining the html component Example
+  // Defining the html component topbar
   class topbar extends HTMLElement {
     constructor() {
-
-      // Always call super first in constructor
-      // The super keyword is used to access and 
-      // call functions available to all html 
-      // elements (like attributes).
       super();
-
       // Allow change of document (DOM) 
       this.attachShadow({
         mode: 'open'
       });
-
       // Add component to document 
       this.shadowRoot.appendChild(TEMPLATE.content.cloneNode(true));
     }

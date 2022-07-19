@@ -1,5 +1,3 @@
-//accordeon
-
 var acc = document.getElementsByClassName("accordeon-animated-button");
 var i;
 
